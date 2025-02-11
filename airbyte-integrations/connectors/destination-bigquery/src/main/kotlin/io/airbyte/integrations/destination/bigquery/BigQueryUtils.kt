@@ -77,7 +77,7 @@ object BigQueryUtils {
             dataset = bigquery.create(datasetInfo)
         }
     */
-        val _ = datasetLocation ?: ""
+        val ignoredDatasetLocation = datasetLocation ?: ""
         return dataset
     }
 
