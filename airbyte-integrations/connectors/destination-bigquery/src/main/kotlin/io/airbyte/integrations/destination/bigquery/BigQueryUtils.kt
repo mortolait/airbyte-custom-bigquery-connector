@@ -77,6 +77,7 @@ object BigQueryUtils {
             dataset = bigquery.create(datasetInfo)
         }
     */
+        val _ = datasetLocation ?: ""
         return dataset
     }
 
